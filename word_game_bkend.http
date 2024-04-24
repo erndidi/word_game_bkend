@@ -1,0 +1,6 @@
+@word_game_bkend_HostAddress = http://localhost:5029
+
+GET {{word_game_bkend_HostAddress}}/word/
+Accept: application/json
+
+###

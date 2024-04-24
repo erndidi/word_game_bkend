@@ -1,0 +1,27 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP.NET Core service.
+
+version: '3.4'
+
+services:
+  wordgamebkend:
+    image: wordgamebkend
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5029:5029
+
+  wordgamedb:
+    image: postgres:clever_shoc
+    container_name: wordgamedb
+    environment:
+      - POSTGRES_DB=word_game
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Ketpeck68001234
+
+    volumes: 
+    - ./.containers/wordgamedb:/var/lib/postgresql/data
+
+    ports:
+    - 5432:5432
+
