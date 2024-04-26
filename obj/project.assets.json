@@ -3025,25 +3025,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/ernestlipford/.nuget/packages/": {}
+    "C:\\Users\\erndi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ernestlipford/Project/word_game_bkend/word_game_bkend.csproj",
+      "projectUniqueName": "C:\\Users\\erndi\\source\\repos\\word_game_bkend\\word_game_bkend.csproj",
       "projectName": "word_game_bkend",
-      "projectPath": "/Users/ernestlipford/Project/word_game_bkend/word_game_bkend.csproj",
-      "packagesPath": "/Users/ernestlipford/.nuget/packages/",
-      "outputPath": "/Users/ernestlipford/Project/word_game_bkend/obj/",
+      "projectPath": "C:\\Users\\erndi\\source\\repos\\word_game_bkend\\word_game_bkend.csproj",
+      "packagesPath": "C:\\Users\\erndi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\erndi\\source\\repos\\word_game_bkend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ernestlipford/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\erndi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3056,11 +3057,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3135,7 +3131,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

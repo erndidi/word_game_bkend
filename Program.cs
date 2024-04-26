@@ -14,6 +14,12 @@ builder.Services.AddDbContext<WordGameContext>(options=>
     }
 
 );
+builder.Services.AddMvc().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.PropertyNamingPolicy = null;
+    options.JsonSerializerOptions.MaxDepth = 64;
+    options.JsonSerializerOptions.IncludeFields = true;
+});
 
 var app = builder.Build();
 
@@ -23,6 +29,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 
 app.UseHttpsRedirection();
 
